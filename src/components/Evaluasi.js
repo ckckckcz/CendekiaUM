@@ -1,19 +1,23 @@
+import Quiz from "../assets/img/qrCode.png"
 export default function Evaluasi() {
     return (
         <>
-        <section class="bg-white dark:bg-gray-900">
+        <section class="bg-blue-700 flex items-center justify-center">
             <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
-                <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Evaluasi Pembelajaran</h1>
-                <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+                <h1 class="mb-4 text-5xl font-extrabold tracking-tight leading-none lg:text-center text-left text-white md:text-5xl lg:text-6xl">Evaluasi Pembelajaran</h1>
+                <p class="mb-8 text-lg font-normal text-gray-200 lg:text-xl sm:px-16 lg:px-48 lg:text-center text-left">Pastikan pemahamanmu solid dengan menjawab kuis interaktif kami. Raih skor terbaik dan jadilah lebih unggul</p>
+                <div class="flex -space-x-4 rtl:space-x-reverse lg:justify-center md:justify-center justify-left mb-4">
+                    <div class="max-w-sm p-2 bg-white border border-gray-200 rounded-2xl shadow flex flex-col items-center justify-center text-center">
+                        <img src={Quiz} alt="Quiz Image" />
+                    </div>
+                </div>
+                <div class="inline-flex items-center justify-center w-full">
+                    <hr class="w-72 lg:w-80 h-px my-8 bg-blue-200 border-0 " />
+                    <span class="absolute px-3 font-medium text-white -translate-x-1/2 bg-blue-700 left-1/2 ">atau</span>
+                </div>
                 <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-                    <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-                        Get started
-                        <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                        </svg>
-                    </a>
-                    <a href="#" class="py-3 px-5 sm:ms-4 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
-                        Learn more
+                    <a href="https://quizizz.com/join?gc=50801760" target="_blank" class="py-3 px-5 sm:ms-4 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100">
+                        Mulai Quiz !
                     </a>  
                 </div>
             </div>

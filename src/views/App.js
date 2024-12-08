@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Team from "../components/Team";
 import Tujuan from "../components/Tujuan";
@@ -13,6 +14,7 @@ export default function App() {
             <Tujuan/>
             <Materi/>
             <Evaluasi/>
+            <Footer/>
         </>
     );
 }
