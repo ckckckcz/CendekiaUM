@@ -3,7 +3,7 @@ import Avatar from "./Header/Avatar.js";
 export default function Header() {
     return(
         <>
-        <section class="bg-transparent mt-14">
+        <section class="bg-transparent mt-4 lg:mt-14">
             <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
                 <Avatar />
                 <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl lg:text-center text-left md:text-left">Belajar Secara Mandiri, Berkembang Secara Bersama</h1>
