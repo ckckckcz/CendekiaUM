@@ -10,10 +10,10 @@ export default function App() {
         <>
             <Navbar />
             <Header />
-            <Team/>
             <Tujuan/>
             <Materi/>
             <Evaluasi/>
+            <Team/>
             <Footer/>
         </>
     );
