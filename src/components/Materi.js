@@ -1,12 +1,12 @@
-import RPL from "./BahanAjar/RPL";
-import Makalah from "./BahanAjar/Makalah";
-import Video from "./BahanAjar/Video";
-export default function BahanAjar() {
+import RPL from "./Materi/RPL";
+import BahanAjar from "./Materi/BahanAjar";
+import VideoPembelajaran from "./Materi/VideoPembelajaran";
+export default function Materi() {
     return (
         <>
             <RPL/>
-            <Makalah/>
-            <Video/>
+            <BahanAjar/>
+            <VideoPembelajaran/>
             {/* <section class="bg-transparent">
                 <div class="flex justify-center items-center">
                     <div class="flex flex-col gap-5 border border-gray-200 rounded-lg shadow p-6 w-1/2">
