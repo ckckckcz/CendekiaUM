@@ -1,10 +1,8 @@
 export default function Tujuan() {
     return (
         <>
-            <section class="mt-4 lg:mt-14 py-8 px-4 mx-auto lg:py-16">
-
+            <section class="mt-1 lg:mt-2 py-8 px-4 mx-auto lg:py-16">
                 <h2 class="text-3xl font-bold text-center mb-12">Tujuan dan Sasaran</h2>
-
                 <div class="grid gap-8 md:grid-cols-2">
                     <div class="bg-gradient-to-br from-blue-50 to-indigo-100 rounded-lg shadow-md overflow-hidden">
                         <div class="p-6">
