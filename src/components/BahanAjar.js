@@ -1,8 +1,13 @@
-
+import RPL from "./BahanAjar/RPL";
+import Makalah from "./BahanAjar/Makalah";
+import Video from "./BahanAjar/Video";
 export default function BahanAjar() {
     return (
         <>
-            <section class="bg-transparent">
+            <RPL/>
+            <Makalah/>
+            <Video/>
+            {/* <section class="bg-transparent">
                 <div class="flex justify-center items-center">
                     <div class="flex flex-col gap-5 border border-gray-200 rounded-lg shadow p-6 w-1/2">
                         <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl lg:text-center text-left md:text-left">Bahan Ajar</h1>
@@ -22,7 +27,7 @@ export default function BahanAjar() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </>
     );
 
