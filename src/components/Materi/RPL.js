@@ -13,7 +13,7 @@ export default function RPL(){
                 </div>
             </div>
             <div>
-                <iframe class="mx-auto w-full lg:max-w-xl h-64 rounded-2xl sm:h-96 shadow-xl" src="https://www.youtube.com/embed/KaLxCiilHns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="mx-auto w-full lg:max-w-xl h-64 rounded-2xl sm:h-96 shadow-xl" src="https://drive.google.com/file/d/{nanti diisi}/preview" ></iframe>
             </div>
         </div>
     </section>

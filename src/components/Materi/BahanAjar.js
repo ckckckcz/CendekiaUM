@@ -3,7 +3,7 @@ export default function BahanAjar(){
     <section class="bg-transparent">
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
             <div>
-                <iframe class="mx-auto w-full lg:max-w-xl h-64 rounded-2xl sm:h-96 shadow-xl" src="https://www.youtube.com/embed/KaLxCiilHns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="mx-auto w-full lg:max-w-xl h-64 rounded-2xl sm:h-96 shadow-xl" src="https://drive.google.com/file/d/1F9DZbdw0OaKpT78mSeqv1jcM2iqmlifo/preview" ></iframe>
             </div>
             <div class="flex flex-col justify-center">
                 <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl ">Bahan Ajar</h1>
