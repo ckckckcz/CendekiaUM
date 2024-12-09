@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 export default function RPL() {
     return (
         <section className="bg-transparent">
@@ -7,12 +8,9 @@ export default function RPL() {
                     RPL
                     </h1>
                     <div className="flex flex-col space-y-4 sm:flex-row sm:space-y-0">
-                    <a
-                        href="#"
-                        className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
-                    >
-                        Baca Selengkapnya
-                    </a>
+                        <a href="javascript:void(0)" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                            Baca Selengkapnya
+                        </a>
                     </div>
                 </div>
                 <div className="order-1 lg:order-2">
