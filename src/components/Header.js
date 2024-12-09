@@ -3,7 +3,7 @@ import Avatar from "./Header/Avatar.js";
 export default function Header() {
     return (
         <>
-            <section   section className="bg-transparent lg:h-[910px] flex items-center justify-center mt-4">
+            <section className="bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] lg:h-[910px] flex items-center justify-center mt-4">
                 <div className="py-8 px-4 mx-auto max-w-screen-xl">
                     <Avatar />
                     <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl lg:text-center text-left">
