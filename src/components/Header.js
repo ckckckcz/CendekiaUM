@@ -13,8 +13,8 @@ export default function Header() {
                         Pendekatan pendidikan yang mengutamakan kebebasan belajar secara individu, sambil tetap memberikan dukungan dan kolaborasi dengan sesama pelajar.
                     </p>
                     <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-                    <a href="#" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 w-full sm:w-auto">Ayo Belajar !</a>
-                        <a href="#" className="py-3 px-5 sm:ms-4 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 w-full sm:w-auto text-center ">Panduan</a>
+                    <a href="#" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-[#03346E] hover:bg-[#021526] focus:ring-4 focus:ring-blue-300 w-full sm:w-auto">Ayo Belajar !</a>
+                        <a href="#" className="py-3 px-5 sm:ms-4 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-[#03346E] focus:z-10 focus:ring-4 focus:ring-gray-100 w-full sm:w-auto text-center ">Panduan</a>
                     </div>
                 </div>
             </section>

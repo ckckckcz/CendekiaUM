@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./assets/css/index.css";
-import App from "./views/App";
+import App from "./views/App"; 
 import RPL from "./views/News/RPL";
 
 const Index = () => (

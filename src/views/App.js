@@ -6,6 +6,7 @@ import Materi from "../components/Materi";
 import Evaluasi from "../components/Evaluasi";
 import Team from "../components/Team";
 import Footer from "../components/Footer";
+
 export default function App() {
     return(
         <>
