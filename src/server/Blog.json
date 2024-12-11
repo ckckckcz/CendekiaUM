@@ -1,0 +1,44 @@
+{
+  "BlogRPL": {
+    "title": "Rencana Pelaksanaan Layanan Bimbingan Klasikal Semester Ganjil Tahun Pelajaran 2025/2026",
+    "topicOne" : "Tujuan Umum",
+    "descriptionOne": "Meningkatkan pemahaman dan keterampilan mahasiswa dalam menerapkan pengetahuan yang diperoleh melalui pembelajaran kontekstual, sehingga mereka dapat mengaitkan materi pelajaran dengan pengalaman nyata dalam kehidupan sehari-hari.",
+    "topicTwo" : "SKKPD",
+    "descriptionTwo" : [
+      "Pengenalan, Mahasiswa mampu menganalisis pengertian, Prinsip, dan Karakteristik (C4)",
+      "Akomodasi, Mahasiswa mampu mengkualifikasi jenis metode pembelajaran (A5)",
+      "Tindakan, Mahasiswa didik mampu menyajikan materi pembelajaran kontekstual dengan singkat (P4)"
+    ],
+    "videos": [
+      "https://www.youtube.com/embed/3qGxVYJF3IU?si=ZVdUp05s1NMvvQvZ"
+    ],
+    "ppt": [
+      ""
+    ]
+  },
+  "BlogBahanAjar": {
+    "title": "Ini adalah blog ajar",
+    "topicOne" : "Tujuan Umum",
+    "descriptionOne": "Meningkatkan pemahaman dan keterampilan mahasiswa dalam menerapkan pengetahuan yang diperoleh melalui pembelajaran kontekstual, sehingga mereka dapat mengaitkan materi pelajaran dengan pengalaman nyata dalam kehidupan sehari-hari.",
+    "topicTwo" : "SKKPD",
+    "descriptionTwo" : [
+      "Pengenalan, Mahasiswa mampu menganalisis pengertian, Prinsip, dan Karakteristik (C4)",
+      "Akomodasi, Mahasiswa mampu mengkualifikasi jenis metode pembelajaran (A5)",
+      "Tindakan, Mahasiswa didik mampu menyajikan materi pembelajaran kontekstual dengan singkat (P4)"
+    ],
+    "videos": [
+      "https://www.youtube.com/embed/3qGxVYJF3IU?si=ZVdUp05s1NMvvQvZ"
+    ],
+    "ppt": [
+      ""
+    ]
+  },
+  "BlogVideoPembelajaran": {
+    "title": "Empowering the Future with TTS",
+    "description": "At TTS, we push the boundaries of speech technology to improve communication in every sector.",
+    "videos": [
+      "https://www.youtube.com/embed/xyz12345",
+      "https://www.youtube.com/embed/xyz12345"
+    ]
+  }
+}
