@@ -1,4 +1,5 @@
 import Logo from "../assets/img/logo.png"
+import { Link } from 'react-router-dom';
 export default function Navbar() {
     return(
         <>
@@ -20,16 +21,16 @@ export default function Navbar() {
                 <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
                     <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
                     <li>
-                        <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#b17457] ">Home</a>
+                        <Link to="/" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#b17457] ">Beranda</Link>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#b17457] ">About</a>
+                        <Link to="/blog/rpl" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#b17457] ">RPL</Link>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#b17457] ">Services</a>
+                        <Link to="/blog/bahanajar" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#b17457] ">Bahan Ajar</Link>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#b17457] ">Contact</a>
+                        <Link to="/blog/videpembelajaran" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#b17457] ">Video Pembelajaran</Link>
                     </li>
                     </ul>
                 </div>
