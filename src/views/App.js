@@ -6,6 +6,7 @@ import Materi from "../components/Materi";
 import Evaluasi from "../components/Evaluasi";
 import Team from "../components/Team";
 import Footer from "../components/Footer";
+import PenjelasanMedia from "../components/PenjelasasnMedia";
 
 export default function App() {
     return(
@@ -13,6 +14,7 @@ export default function App() {
             <Navbar />
             <Header />
             <TentangKami />
+            <PenjelasanMedia/>
             <Tujuan/>
             <Materi/>
             <Evaluasi/>
