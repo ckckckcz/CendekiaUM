@@ -2,7 +2,7 @@ import Learning from "../assets/img/learning.png";
 export default function Tujuan() {
     return (
         <>
-            <section class="bg-[#03346E]">
+            <section class="bg-[#b17457]">
                 <div class="py-8 px-4 mx-auto max-w-screen-xl text-left lg:py-16">
                     <div class="grid grid-cols-1 lg:grid lg:grid-cols-2 justify-between lg:gap-12">
                         <div class="text-information">

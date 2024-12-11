@@ -10,7 +10,7 @@ export default function BahanAjar(){
                 <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl ">Dalam era globalisasi dan perkembangan pesat teknologi informasi, pendekatan pembelajaran yang inovatif dan relevan menjadi kebutuhan mendesak dalam dunia pendidikan. Metode pembelajaran kontekstual muncul sebagai salah satu pendekatan yang mampu menghubungkan materi pembelajaran dengan kehidupan nyata, sehingga membantu siswa mengembangkan pemahaman yang lebih mendalam. 
                 </p>
                 <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0">
-                    <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-[#03346E] hover:bg-[#021526] focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                    <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-[#b17457] hover:bg-[#905C43] focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
                         Baca Selengkapnya
                     </a>
                 </div>

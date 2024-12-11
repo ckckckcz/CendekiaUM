@@ -9,7 +9,7 @@ export default function Avatar(){
                     <img class="w-10 h-10 border-2 border-white rounded-full object-cover" src={Testimoni1} alt="" />
                     <img class="w-10 h-10 border-2 border-white rounded-full object-cover" src={Testimoni2} alt="" />
                     <img class="w-10 h-10 border-2 border-white rounded-full object-cover" src={Testimoni3} alt="" />
-                    <a class="flex items-center justify-center w-10 h-10 text-xs font-medium text-white bg-[#03346E] border-2 border-white rounded-full hover:bg-[#021526]"href="#">+99</a>
+                    <a class="flex items-center justify-center w-10 h-10 text-xs font-medium text-white bg-[#b17457] border-2 border-white rounded-full hover:bg-[#905C43]"href="#">+99</a>
                 </div>
                 <p class="font-medium text-lg lg:block hidden">Pengguna Produktif!!</p>
             </div>

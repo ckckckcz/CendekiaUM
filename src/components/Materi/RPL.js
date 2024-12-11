@@ -8,7 +8,7 @@ export default function RPL() {
                     RPL
                     </h1>
                     <div className="flex flex-col space-y-4 sm:flex-row sm:space-y-0">
-                        <Link to="/blog/rpl" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-[#03346E] hover:bg-[#021526] focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Baca Selengkapnya</Link>
+                        <Link to="/blog/rpl" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-[#b17457] hover:bg-[#905C43] focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Baca Selengkapnya</Link>
                     </div>;
                 </div>
                 <div className="order-1 lg:order-2">
