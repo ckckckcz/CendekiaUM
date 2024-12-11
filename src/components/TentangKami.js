@@ -11,7 +11,7 @@ export default function Tujuan() {
                             Cendekia merupakan platform pembelajaran yang memanfaatkan teknologi dalam bentuk website ntuk menyampaikan materi edukasi kepada mahasiswa.Website ini dirancang dengan berbagai fitur interaktif yang mendukung proses belajar mahasiswa, seperti beranda, RPL, video pembelajaran dan kuis. Tujuan dari pembuatan website Cendekia ini adalah agar memudahkan mahasiswa untuk mengakses materi di mana saja dan kapan saja tanpa terbatas oleh waktu, membuat proses belajar lebih menarik karena adanya ilustrasi dan video pembelajaran, dan meningkatkan kemampuan kolaboratif mahasiswa. 
                             </p>
                         </div>
-                        <div class="image-information">
+                        <div class="image-information flex justify-center items-center">
                             <img src={Learning} class="rounded-2xl" />
                         </div>
                     </div>
