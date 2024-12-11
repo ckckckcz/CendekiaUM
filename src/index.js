@@ -5,6 +5,7 @@ import "./assets/css/index.css";
 import App from "./views/App";
 import BlogRPL from "./views/News/BlogRPL";
 import BlogBahanAjar from "./views/News/BlogBahanAjar";
+import BlogVideoPembelajaran from "./views/News/BlogVideoPembelajaran";
 
 const Index = () => (
   <BrowserRouter>
@@ -12,6 +13,7 @@ const Index = () => (
       <Route path="/" element={<App />} />
       <Route path="/blog/rpl" element={<BlogRPL />} />
       <Route path="/blog/bahanajar" element={<BlogBahanAjar />} />
+      <Route path="/blog/videopembelajaran" element={<BlogVideoPembelajaran />} />
     </Routes>
   </BrowserRouter>
 );

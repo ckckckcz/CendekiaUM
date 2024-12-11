@@ -3,6 +3,7 @@ import Data from "../../server/Blog.json";
 
 function Blog() {
     const [content, setContent] = useState(null);
+    const [isBahanAjar, setIsBahanAjar] = useState(false);
 
     const loadData = () => {
         const fileName = window.location.pathname.split("/").pop();
@@ -10,7 +11,8 @@ function Blog() {
             setContent(Data.BlogRPL);
         } else if (fileName === 'bahanajar') {
             setContent(Data.BlogBahanAjar);
-        } else if (fileName === 'VideoPembelajaran') {
+            setIsBahanAjar(true); // Set kondisi khusus untuk bahan ajar
+        } else if (fileName === 'videopembelajaran') {
             setContent(Data.BlogVideoPembelajaran);
         }
     };
@@ -35,34 +37,67 @@ function Blog() {
 
     return (
         <section className="bg-transparent min-h-screen">
-        <div className="py-8 px-4 mx-auto max-w-screen-xl text-left lg:py-16">
-            <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-[#b17457] md:text-5xl lg:text-6xl">{content.title}</h1>
-            <hr class="h-px my-8 bg-gray-300 border-0" />
-            <h3 className='font-bold md:text-3xl lg:text-3xl text-2xl text-gray-800 mt-7 lg:mt-10'>{content.topicOne}</h3>   
-            <p className="mb-8 text-lg text-gray-600 mt-1 font-medium lg:text-xl">{content.descriptionOne}</p>
-            {/* jeda */}
-            <h3 className='font-bold md:text-3xl lg:text-3xl text-2xl text-gray-800 mt-7 lg:mt-10'>{content.topicTwo}</h3>   
-            <ul className="space-y-2 mb-8 mt-1 font-medium text-gray-500 list-disc list-inside">
-                {content.descriptionTwo.map((item, index) => (
-                    <li className='mb-2' key={index}>{item}</li>
-                ))}
-            </ul>
-            {/* jeda */}
-            {content.videos.map((videoUrl, index) => (
-                <iframe
-                key={index}
-                className="w-full h-[600px] rounded-3xl"
-                src={videoUrl}
-                title={`YouTube video ${index + 1}`}
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-                />
-            ))}
-        </div>
+            <div className="py-8 px-4 mx-auto max-w-screen-xl text-left lg:py-16">
+                <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-[#b17457] md:text-5xl lg:text-6xl">
+                    {content.title || "Judul Tidak Ditemukan"}
+                </h1>
+                <hr className="h-px my-8 bg-gray-300 border-0" />
+    
+                {/* Jika isBahanAjar true, hanya tampilkan video */}
+                {isBahanAjar ? (
+                    content.videos && content.videos.map((videoUrl, index) => (
+                        <iframe
+                            key={index}
+                            className="w-full h-[600px] rounded-3xl"
+                            src={videoUrl}
+                            title={`Video ${index + 1}`}
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerPolicy="strict-origin-when-cross-origin"
+                            allowFullScreen
+                        />
+                    ))
+                ) : (
+                    <>
+                        {content.topicOne && (
+                            <>
+                                <h3 className="font-bold md:text-3xl lg:text-3xl text-2xl text-gray-800 mt-7 lg:mt-10">
+                                    {content.topicOne}
+                                </h3>
+                                <p className="mb-8 text-lg text-gray-600 mt-1 font-medium lg:text-xl">
+                                    {content.descriptionOne}
+                                </p>
+                            </>
+                        )}
+                        {content.topicTwo && (
+                            <>
+                                <h3 className="font-bold md:text-3xl lg:text-3xl text-2xl text-gray-800 mt-7 lg:mt-10">
+                                    {content.topicTwo}
+                                </h3>
+                                <ul className="space-y-2 mb-8 mt-1 font-medium text-gray-500 list-disc list-inside">
+                                    {content.descriptionTwo?.map((item, index) => (
+                                        <li className="mb-2" key={index}>{item}</li>
+                                    ))}
+                                </ul>
+                            </>
+                        )}
+                        {content.videos?.map((videoUrl, index) => (
+                            <iframe
+                                key={index}
+                                className="w-full h-[600px] rounded-3xl"
+                                src={videoUrl}
+                                title={`Video ${index + 1}`}
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen
+                            />
+                        ))}
+                    </>
+                )}
+            </div>
         </section>
-    );
+    );    
 }
 
 export default Blog;
